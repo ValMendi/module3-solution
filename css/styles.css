@@ -1,0 +1,81 @@
+#header-nav{
+    background-color: #95CCFF;
+    
+}
+#site-name{
+    text-decoration: none;
+    font-size: 3em;
+    margin: 15px 0px 15px 0px;
+    color: #000;
+}
+
+.container h2{
+    text-align: center; 
+    margin: 30px 0px 30px 0px;
+}
+
+.content-item {
+    background-color: #CEFF95;
+    text-align: center;
+    border: 20px solid #fff;    
+}
+
+.item-menu p{
+    text-align: justify;
+}
+
+#collapsable-nav{
+    background-color: #fff;
+   
+    
+}
+
+#nav-list{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #000;
+    background-color: #EEFFFE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.item-content {
+    font-size: 1.5em;
+    border-bottom: 1px solid #000;
+    color: #000;
+
+}
+
+#item-content3{
+    border-bottom: 0px;
+}
+
+.item-content:hover{
+    background-color: #DCE4F6;
+}
+
+#button-menu{
+    background-color: #FFFEAB;
+    border: 1px solid #929292;
+}
+
+.go-top{
+    text-decoration: underline;
+    font-size: 1.3em;
+    
+}
+
+@media (min-width: 1200px) {    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+    #collapsable-nav{
+        visibility: visible;
+    }
+}
